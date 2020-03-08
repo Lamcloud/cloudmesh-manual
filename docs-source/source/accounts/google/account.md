@@ -5,7 +5,12 @@
 We assume you have the cloudmesh google provider installed. This can be done with 
 
 ```bash
-$ pip install cloudmesh-google
+$ pip install cloudmesh-google # wrong
+
+# Correct:
+
+$ cd cloudmesh-google
+$ pip install -e.
 ```
 
 For developers the best way to install it is to use `cloudmesh-installer`. 
